@@ -1,0 +1,10 @@
+footer{
+    display: flex;
+    border-top: .2rem solid black;
+    width: 2fr;
+    justify-content: center;
+    bottom: 0;
+    /* position: fixed; */
+    padding: 1rem;
+}
+

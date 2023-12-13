@@ -1,14 +1,16 @@
 [
     {
-      "name": "project1",
-      "live": "https://app.herokuapp.com/whatever",
-      "git": "http://www.github.com/username/reponame",
-      "image": "http://www.imgur.com/pictureofproject.png"
+      "name": "Simon Says",
+      "description": "A retrospective perspective on an old faorite",
+      "live": "https://smackeem.github.io/Simon_Says_Project_1/",
+      "git": "https://github.com/smackeem/Simon_Says_Project_1",
+      "image": "https://i.ibb.co/kJcsfmN/simon.png"
     },
     {
-      "name": "project2",
-      "live": "https://app.netlify.app/whatever",
-      "git": "http://www.github.com/username/reponame",
-      "image": "http://www.imgur.com/pictureofproject.png"
+      "name": "Animal Kingdom",
+      "description": "A companion on your pet health journey",
+      "live": "https://animalkingdom-67bef32faf2a.herokuapp.com/",
+      "git": "https://github.com/smackeem/Animal_Kingdom_Project_2",
+      "image": "https://i.ibb.co/bvfgcd1/animalk.png"
     }
   ]

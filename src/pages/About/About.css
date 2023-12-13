@@ -1,0 +1,40 @@
+img {
+    width: 30rem;
+    height: auto;
+    border-radius: 1rem;
+}
+.about-container{
+    display: flex;
+    /* justify-content: space-around; */
+    width: 100%;
+}
+
+.headshot-container{
+    width: 1fr;
+}
+
+.intro-container{
+    width: 20%;
+    text-wrap: wrap;
+}
+
+.card {
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+  }
+  
+  .card-image {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card-title {
+    border-radius: 0 0 1rem 1rem;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+  }

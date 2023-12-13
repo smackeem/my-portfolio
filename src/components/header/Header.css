@@ -1,0 +1,14 @@
+
+.navStyle {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .2rem solid black;
+    padding: .5rem;
+    width: 2fr;
+
+  }
+
+img {
+    width: 2cm;
+    height: auto;
+}
