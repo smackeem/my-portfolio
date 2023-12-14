@@ -39,7 +39,7 @@ I navigate the dynamic world of web development as both a frontend and backend a
 
 
 ## Link To My Portfolio
-🚀 Find out more About Me: [https://animalkingdom-67bef32faf2a.herokuapp.com/](https://smackeem.netlify.app)
+🚀 Find out more About Me: https://smackeem.netlify.app
 
 
 ## Next Steps and Future Enhancements
