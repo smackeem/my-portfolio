@@ -1,0 +1,83 @@
+
+.home-container {
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 100%;
+    margin-left: 2rem; 
+    margin-right: 2rem;
+  }
+  
+  .headshot-container {
+    width: fit-content;
+    position: sticky;
+    margin-left: 2rem;
+  }
+  
+  .headshot {
+    width: 450px; 
+    height: auto;
+    border-radius: 1rem;
+  }
+  
+  .margin-lr {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .about-me {
+    margin-left: 4rem;
+    width: 40%; 
+    overflow-x: auto;
+  }
+  
+  .ctr {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.5rem; 
+  }
+  
+  .job {
+    font-size: 1.5rem; 
+  }
+  
+  .intro {
+    margin-top: 1rem;
+    margin-bottom: 1rem; 
+  }
+  
+  .btn-link {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  @media screen and (max-width: 768px) {
+    .home-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .headshot-container {
+      margin-left: 0; 
+    }
+  
+    .headshot {
+      max-width: 300px; 
+    }
+  
+    .about-me {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+  
+
+  @media screen and (min-width: 1200px) {
+    .headshot {
+      max-width: 600px; 
+        }
+  }
+  

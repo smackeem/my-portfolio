@@ -1,6 +1,11 @@
 body {
     margin: 0, auto;
-    background-color: 000000;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: black;
   }
+
+.App {
+  display: flex;
+  /* flex-direction: row; */
+}
 

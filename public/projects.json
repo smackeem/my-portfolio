@@ -1,14 +1,14 @@
 [
     {
       "name": "Simon Says",
-      "description": "A retrospective perspective on an old faorite",
+      "description": "Replicate sequences of colors and sounds as the stakes rise, dancing through escalating levels of intensity. In the whimsical realm of Simon, precision is your key to avoiding a dramatic \"Game Over!\" finale.",
       "live": "https://smackeem.github.io/Simon_Says_Project_1/",
       "git": "https://github.com/smackeem/Simon_Says_Project_1",
       "image": "https://i.ibb.co/kJcsfmN/simon.png"
     },
     {
       "name": "Animal Kingdom",
-      "description": "A companion on your pet health journey",
+      "description": "Animal Kingdom is a comprehensive and user-friendly web application designed to provide a seamless and organized approach to managing pet health and appointments for pet owners and veterinarians.",
       "live": "https://animalkingdom-67bef32faf2a.herokuapp.com/",
       "git": "https://github.com/smackeem/Animal_Kingdom_Project_2",
       "image": "https://i.ibb.co/bvfgcd1/animalk.png"

@@ -4,7 +4,6 @@ import './App.css'
 //COMPONENTS
 /////////////////////
 import Header from './components/header'
-import Footer from './components/footer'
 import Main from './components/main'
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
       <div className='App'>
         <Header />
         <Main />
-        <Footer />
       </div>
  
   )
