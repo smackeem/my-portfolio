@@ -34,7 +34,7 @@ a {
 }
 
 a:hover {
-  /* color: #ffcc00; */
+   color: #ffcc00; 
 }
 
 a::after {
