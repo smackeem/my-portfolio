@@ -2,8 +2,7 @@
 .home-container {
     display: flex;
     align-items: center;
-   
-    width: 100%;
+    width: 100vw;
     margin-left: 2rem; 
     margin-right: 2rem;
   }
@@ -27,6 +26,10 @@
   
   .about-me {
     margin-left: 4rem;
+    background-color: rgba(0, 0, 0, 0.709);
+    color: white;
+    border-radius: 1rem;
+    padding: 5rem;
     width: 40%; 
     overflow-x: auto;
   }
@@ -46,12 +49,6 @@
   .intro {
     margin-top: 1rem;
     margin-bottom: 1rem; 
-  }
-  
-  .btn-link {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
   }
 
   @media screen and (max-width: 768px) {

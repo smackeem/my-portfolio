@@ -1,59 +1,19 @@
-.container {
+.container{
+  margin-left: 4rem;
+  width: 100%;
+}
+
+.button-container{
   display: flex;
-  flex-direction: column;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+  justify-content: space-evenly;
+  bottom: 0;
+  position: sticky;
 }
 
-.project-card{
-    display: flex;
-    /* background-color: whitesmoke; */
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
- 
+.button-gradient{
+  background-color: bisque;
 }
 
-/* .image {
-    height: 258px;
-} */
-
-.button-container {
-    display:flex;
-    justify-content: space-around;
-    padding-bottom: .5rem;
+.mr-t{
+  margin-top: 5rem;
 }
-
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .button-gradient {
-    background: linear-gradient(to right, #ff6b6b, #ffa07a);
-    color: #fff;
-  }
-  
-  .button-gradient:hover {
-    background: linear-gradient(to right, #ff8c8c, #ffcccb);
-  }
-  
-  .button-outline {
-    background: none;
-    border: 2px solid #ff6b6b;
-    color: #ff6b6b;
-  }
-  
-  .button-outline:hover {
-    background: linear-gradient(to right, #ff8c8c, #ffcccb);
-    color: #fff;
-  }
-  

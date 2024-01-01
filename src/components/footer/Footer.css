@@ -1,12 +1,8 @@
 footer{
     display: flex;
-    border-top: .2rem solid black;
-   height: 10rem;
+   height: 15rem;
     justify-content: center;
     align-items: center;
-    bottom: 0;
-    /* position: fixed; */
-    padding: 1rem;
 }
 .img {
     width: 2cm;

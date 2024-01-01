@@ -18,9 +18,12 @@ const About = () => {
 
     const loaded = () => {
         return (
-            <div className="about-container mt-5">
-                <div className="background-container">
-                    <h1 className="text-orange-600 title">ABOUT ME</h1>
+            <div className="about-container flex flex-col justify-center  ">
+                <div className="background-container flex flex-col justify-center">
+                    <div className="flex flex-col justify-center mr-t">
+                    <h1 className="text-orange-600 title text-center">ABOUT ME</h1>
+                    </div>
+                    <div className="flex mt-14 flex-col justify-center">
                     <p className='bio'>
                     I navigate the dynamic world of web development as both a frontend 
                     and backend artisan, crafting ingenious solutions for intricate 
@@ -34,15 +37,22 @@ const About = () => {
                      complexities into elegant simplicity. In this exhilarating 
                      journey, my creations unfold, and a vibrant drama plays out on the 
                      digital stage.
+                     <hr className="mt-5"/>
                 </p>
+                
+                    </div>
+                    
 
                 </div>
-                <hr />
-                <h1 className="text-orange-600 title">SKILLS</h1> 
-                <div className="flex flex-col mt-4">
+                
+                <div className="flex flex-col justify-center mr-t">
+
+                
+                <h1 className="text-orange-600 title text-center">SKILLS</h1> 
+                <div className="skills-box flex flex-col mt-14">
                 {frontend.map((f, x) => {
                     return(
-                        <div  key={x} className="flex flex-row m-3">
+                        <div  key={x} className=" flex flex-row mt-4 m-3">
                             <div className="flex skill-title basis-1/4">
                                 <h3 className="cat">{f.cat}</h3>
                             </div>
@@ -59,6 +69,7 @@ const About = () => {
                     )
                                 })}
                     
+                    </div>
                     </div>
                 </div>
 

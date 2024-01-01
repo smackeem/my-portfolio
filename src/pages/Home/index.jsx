@@ -30,7 +30,6 @@ const Home = () => {
                 <p className='intro'>
                 Step into my creative sanctuary, where my mind orchestrates, and my fingers dance across the keyboard, crafting inventive solutions one keystroke at a time.
                 </p>
-                <Link className='btn-link' to='/about'><button className="button button-gradient rounded-full">More About Me</button></Link>
             </section>
         </div>
     )

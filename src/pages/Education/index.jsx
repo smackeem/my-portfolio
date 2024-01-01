@@ -1,11 +1,12 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import './Education.css'
 
-export default function Testing(){
+export default function Education(){
     return (
-        <>
-        <h1 className='text-center text-orange-600 title'>Education</h1>
-        <VerticalTimeline>
+        <div className='ed-cont mr-t'>
+        <h1 className='text-center text-orange-600 title mt-5'>Education</h1>
+        <VerticalTimeline className='mt-14'>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     
@@ -51,6 +52,6 @@ export default function Testing(){
     
   />
 </VerticalTimeline>
-        </>
+        </div>
     )
 }

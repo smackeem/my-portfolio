@@ -1,13 +1,31 @@
 body {
     margin: 0, auto;
-    background-color: #2F4454;
+    background-color: whitesmoke;
     color: black;
   }
 
 .App {
   display: flex;
   flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
 }
 
+.home {
+  background: url('./assets/images/puzzle.jpg') center/cover;
+}
+
+.about{
+padding-bottom: 3rem;
+}
+
+.projects{
+  background: url('./assets/images/puzzle.jpg') center/cover;
+  padding-bottom: 3rem;
+}
+
+.ed{
+
+}
+
+.contact{
+  background-color: #006E90;
+}

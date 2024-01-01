@@ -1,80 +1,23 @@
-
 .about-container{
-    display: flex;
-    /* margin: 1.5rem; */
-    /* gap: 5rem; */
-     height: 100vh;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    /* width: 100%; */
+  margin-left: 4rem;
 }
 
-.background-container{
-  display: flex;
-  flex-direction: column;
+.bio{
+  margin-left: 6rem;
+  margin-right: 6rem;
+ 
+}
+
+.skills-box{
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.mr-t{
+  margin-top: 5rem;
+}
+
+.skill-title{
+  justify-content: center;
   align-items: center;
-  margin-bottom: 2rem;
-  width: 85%; 
-    overflow-x: auto;
 }
-
-.bio {
-  /* margin: 0 16rem; */
-  margin-top: 1rem;
-  font-size: 18px;
-}
-
-.skills-container {
-    display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  flex-wrap: wrap;
-  grid-auto-rows: minmax(450px, auto);
-  grid-gap: 2rem;
-  margin-bottom: 1.5rem;
-  max-width: 1200px;
-  padding: 1rem;
-  overflow-y: scroll;
-
-  }
-  .card-containers{
-    /* background-color: hsla(30, 7%, 84%, 0.627); */
-    border-radius: 1rem;
-  }
-  h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-  
-  .info-container {
-    display: grid;
-    justify-content: center;
-  grid-gap: 1rem;
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 1rem;
-  }
-  .skill-title{
-
-    font-size: 25px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-  .cat{
-    background: linear-gradient(to right, #eda239, #e26a24);
-    padding: 0.5rem;
-    border-radius: 1rem;
-  }
-  .badge {
-    width: auto; 
-     height: 35px; 
-    border-radius: 5px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-  }
-  
-  .badge:hover {
-    transform: scale(1.2); 
-  } 
-  

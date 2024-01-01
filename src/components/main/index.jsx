@@ -5,7 +5,7 @@ import Projects from "../../pages/Projects";
 import About from "../../pages/About";
 import Resume from "../../pages/Resume";
 import './Main.css'
-import Testing from "../../pages/Testing";
+import Testing from "../../pages/Education";
 import ProjectsTest from "../../pages/ProjectsTest";
 
 const Main = () => {
