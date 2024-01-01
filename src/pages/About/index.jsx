@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { Badge } from "react-bootstrap";
 import './About.css'
 const About = () => {
     // const [about, setAbout] = useState({});
@@ -21,7 +20,7 @@ const About = () => {
             <div className="about-container flex flex-col justify-center  ">
                 <div className="background-container flex flex-col justify-center">
                     <div className="flex flex-col justify-center mr-t">
-                    <h1 className="text-orange-600 title text-center">ABOUT ME</h1>
+                    <h1 className=" title text-orange-600 text-center">ABOUT ME</h1>
                     </div>
                     <div className="flex mt-14 flex-col justify-center">
                     <p className='bio'>

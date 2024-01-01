@@ -1,7 +1,7 @@
 import './Home.css'
 import Headshot from '../../assets/images/edited.png'
 import { TypeAnimation } from 'react-type-animation';
-import { Link } from 'react-router-dom';
+
 const Home = () => {
     return (
         <div className="home-container">
@@ -10,7 +10,7 @@ const Home = () => {
             </section>
             <section className='about-me margin-lr'>
             
-                <h1 className='title ctr'>-Hi, I&apos;m Ackeem Smith.</h1>
+                <h1 className='title ctr'><strong>-Hi, I&apos;m Ackeem Smith.</strong></h1>
                 <h3 className='ctr'><TypeAnimation
         sequence={[
           "Full Stack Developer",
@@ -24,7 +24,7 @@ const Home = () => {
         ]}
         speed={50}
         repeat={Infinity}
-        style={{ fontSize: '2em' }}
+        style={{ fontSize: '1.5em' }}
       /></h3>
                 
                 <p className='intro'>
