@@ -9,6 +9,7 @@
     height: 100vh;
     width: 5rem;
     margin: 0 1rem;
+    color: black;
 
   }
   .contact-links{
@@ -21,10 +22,7 @@
     margin-bottom: .3cm;
   }
 
-.img {
-    width: 1cm;
-    height: auto;
-}
+
 
 a {
   text-decoration: none;

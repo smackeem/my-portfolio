@@ -1,11 +1,13 @@
 body {
     margin: 0, auto;
-    background-color: whitesmoke;
+    background-color: #2F4454;
     color: black;
   }
 
 .App {
   display: flex;
-  /* flex-direction: row; */
+  flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
 }
 

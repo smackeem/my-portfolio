@@ -4,13 +4,23 @@
       "description": "Replicate sequences of colors and sounds as the stakes rise, dancing through escalating levels of intensity. In the whimsical realm of Simon, precision is your key to avoiding a dramatic \"Game Over!\" finale.",
       "live": "https://smackeem.github.io/Simon_Says_Project_1/",
       "git": "https://github.com/smackeem/Simon_Says_Project_1",
-      "image": "https://i.ibb.co/kJcsfmN/simon.png"
+      "image": "https://i.ibb.co/kJcsfmN/simon.png",
+      "tech" : ["JAVASCRIPT", "HTML", "CSS"]
     },
     {
       "name": "Animal Kingdom",
       "description": "Animal Kingdom is a comprehensive and user-friendly web application designed to provide a seamless and organized approach to managing pet health and appointments for pet owners and veterinarians.",
       "live": "https://animalkingdom-67bef32faf2a.herokuapp.com/",
       "git": "https://github.com/smackeem/Animal_Kingdom_Project_2",
-      "image": "https://i.ibb.co/bvfgcd1/animalk.png"
+      "image": "https://i.ibb.co/bvfgcd1/animalk.png",
+      "tech": ["JAVASCRIPT", "EXPRESS.JS", "NODE.JS", "MONGODB", "SASS", "HTML5", "CSS3", "BCRYPT.JS", "COOKIEPARSER", "SWEETALERT2"]
+    },
+    {
+      "name": "SkyLoom",
+      "description": "SkyLoom is a seamless and intuitive Flight Finder application that helps users find the cheapest flights for travel. Whether you're a budget-conscious traveler or planning your dream vacation, SkyLoom keeps you informed, saving you time and money.",
+      "live": "https://fascinating-melomakarona-16bbb7.netlify.app/",
+      "git": "https://github.com/smackeem/SkyLoom-Project-3",
+      "image": "https://i.ibb.co/Bt6Tf7v/Screenshot-2023-12-22-at-12-55-45-AM.png",
+      "tech": ["REACT", "JAVASCRIPT", "EXPRESS.JS", "NODE.JS", "MONGODB", "CSS3", "AMADEUS API", "BOOTSTRAP", "AUTH0", "SWEETALERT2"]
     }
   ]

@@ -1,26 +1,23 @@
 .container {
-    display: flex;
-    padding: 2rem;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+    height: 100vh;
+    justify-content: center;
     align-items: center;
-    gap: 3rem;
-    flex-wrap: wrap;
-    
 }
 
 .project-card{
     display: flex;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    width: 450px;
-    height: 500px;
+ 
 }
 
-.image {
+/* .image {
     height: 258px;
-}
+} */
 
 .button-container {
     display:flex;
@@ -31,7 +28,6 @@
 .button {
     display: inline-block;
     padding: 10px 20px;
-    font-size: 16px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;

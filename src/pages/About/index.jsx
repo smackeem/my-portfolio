@@ -1,25 +1,15 @@
 import { useState, useEffect } from "react";
+import { Badge } from "react-bootstrap";
 import './About.css'
 const About = () => {
     // const [about, setAbout] = useState({});
     const [frontend, setFrontend] = useState([]);
-    const [backend, setBackend] = useState([]);
-    const [languages, setLanguages] = useState([]);
-    const [other, setOther] = useState([]);
 
     const fetchData = async () => {
         const frontResp = await fetch('../../frontend.json');
         const frontData = await frontResp.json();
-        const backResp = await fetch('../../backend.json');
-        const backData = await backResp.json()
-        const langResp = await fetch('../../languages.json');
-        const langData = await langResp.json()
-        const otherResp = await fetch('../../other.json');
-        const otherData = await otherResp.json()
         setFrontend(frontData);
-        setBackend(backData)
-        setLanguages(langData)
-        setOther(otherData)
+
     }
 
     useEffect(() => {
@@ -28,9 +18,9 @@ const About = () => {
 
     const loaded = () => {
         return (
-            <div className="about-container">
+            <div className="about-container mt-5">
                 <div className="background-container">
-                    <h1 className="text-orange-600 title">Background</h1>
+                    <h1 className="text-orange-600 title">ABOUT ME</h1>
                     <p className='bio'>
                     I navigate the dynamic world of web development as both a frontend 
                     and backend artisan, crafting ingenious solutions for intricate 
@@ -45,76 +35,33 @@ const About = () => {
                      journey, my creations unfold, and a vibrant drama plays out on the 
                      digital stage.
                 </p>
-                    <hr />
-                </div>
 
-                <h1 className="text-orange-600 title">My Skills</h1> 
-                <div className="skills-container ">
-                
-                    <div className="card-containers">
-                        <div className="skill-title">
-                            <h3>Frontend</h3>
-                        </div>
-                        <div className="info-container">
-                            {frontend.map((f, idx) => {
-                                return (
+                </div>
+                <hr />
+                <h1 className="text-orange-600 title">SKILLS</h1> 
+                <div className="flex flex-col mt-4">
+                {frontend.map((f, x) => {
+                    return(
+                        <div  key={x} className="flex flex-row m-3">
+                            <div className="flex skill-title basis-1/4">
+                                <h3 className="cat">{f.cat}</h3>
+                            </div>
+                            <div className="flex flex-wrap gap-2 basis-3/4">
+                                {f.skills.map((skill, idx) => {
+                                    return (
                                  
-                                 <img className="badge" key={idx} src={f.badge} alt="" />
-                                )
-                            }
-                            )}
-                        </div> 
-                    </div>
-
-                    <div className="card-containers">
-                        <div className="skill-title">
-                            <h3>Backend</h3>
-                        </div>
-                        <section  className="info-container">
-                        {backend.map((b, idx) => {
-                            return (
-                                
-                                    <img key={idx} className="badge" src={b.badge} alt="" />
-                                
-                            )
-                        }
-                        )}
-                        </section>
-                    </div>
-
-                    <div className="card-containers">
-                        <div className="skill-title">
-                        <h3>Languages</h3>
-                        </div>
-                        <section  className="info-container">
-                        {languages.map((l, idx) => {
-                            return (
-                                    <img key={idx} className="badge" src={l.badge} alt="" />
-                               
-                            )
-                        }
-                        )}
-                         </section>
-                    </div>
-
-                    <div className="card-containers">
-                        <div className="skill-title">
-                        <h3>Other</h3>
-                        </div>
-                        <section  className="info-container">
-                        {other.map((o, idx) => {
-                            return (
-                                
-                                    <img key={idx} className="badge" src={o.badge} alt="" />
-                               
-                            )
-                        }
-                        )}
-                         </section>
+                                        <img className="badge" key={idx} src={skill.badge} alt="" />
+                                        )
+                                    }
+                                )}
+                            </div> 
+                         </div> 
+                    )
+                                })}
+                    
                     </div>
                 </div>
 
-            </div>
         )
     }
 

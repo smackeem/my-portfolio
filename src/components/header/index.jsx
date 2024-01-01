@@ -15,11 +15,11 @@ const Header = () => {
         <header>
             <nav className='navStyle'>
                 <div className='home-link'>
-                    <Link title='Home' to='/'><img className='img' src={HomeIcon} /></Link>
+                    <Link title='Home' to='#'><img className='img' src={HomeIcon} /></Link>
                 </div>
                 <div className='contact-links'>
-                    <Link title='Projects' className='links' to='/projects'> <img className='img' src={ProjectIcon}/> </Link>
-                    <Link title='About' className='links' to='/about'> <img className='img' src={AboutIcon}/> </Link>
+                    <Link title='Projects' className='links' to='#projects'> <img className='img' src={ProjectIcon}/> </Link>
+                    <Link title='About' className='links' to='#about'> <img className='img' src={AboutIcon}/> </Link>
                     <Link title='Resume' className='links' to={ResumeFile}> <img className='img' src={ResumeIcon}/></Link>
                 </div>
                 <div className='contact-links'>
@@ -32,6 +32,8 @@ const Header = () => {
                     <Link title='Email' to='mailto:smackeem@outlook.com' className='links' target="_blank" rel="noreferrer">
                     <img className='img' src={EmailIcon}/>
                     </Link>
+                    <Link to='#testing'>Testing</Link>
+                    <Link to='#pt'>Project test</Link>
                 </div>
             </nav>
         </header>
