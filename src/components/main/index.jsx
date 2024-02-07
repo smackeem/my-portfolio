@@ -10,14 +10,13 @@ import ProjectsTest from "../../pages/ProjectsTest";
 const Main = () => {
     return (
         <main className="main">
-          <Routes>
-            <Route exact path='/' element={<Home />} />
+          {/* <Routes>
+            <Route path='/' exact element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/projects' element={<Projects />} />
-          
             <Route path='/testing' element={<Testing />} />
             <Route path='/pt' element={<ProjectsTest />} />
-          </Routes>
+          </Routes> */}
         </main>
     )
 }

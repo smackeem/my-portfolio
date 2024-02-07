@@ -8,6 +8,8 @@ import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Education from "./pages/Education";
 import Footer from "./components/footer";
+import Header from "./components/header";
+import Main from "./components/main";
 
 function App() {
   return (
@@ -16,7 +18,7 @@ function App() {
       <Home />
       </section>
 
-      <section className="about">
+      {/* <section className="about">
       <About />
       </section>
       
@@ -30,7 +32,7 @@ function App() {
 
       <section className="contact">
       <Footer />
-      </section>
+      </section> */}
       
     </div>
   );
