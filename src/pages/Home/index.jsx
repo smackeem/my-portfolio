@@ -5,28 +5,28 @@ import ResumePDF from "../../assets/resume/resume.pdf"
 
 const Home = () => {
   return (
-    <div className="flex flex-col px-6 py-8 md:pb-0 md:grid md:grid-rows-3 md:grid-flow-col gap-4 md:justify-items-center">
+    <div className="flex flex-col px-6 py-8 md:pb-0 md:grid md:grid-rows-3 md:grid-cols-3 gap-4 md:justify-items-center">
       <div className="headshot-container md:row-start-1 md:row-span-4 ">
         <img className="headshot drop-shadow-xl" src={Headshot} alt="" />
       </div>
-      <div className="about-me margin-lr bg-gradient-to-bl opacity-85 border-double shadow-lg from-black to-black rounded-3xl text-white px-6 py-8 flex flex-col justify-center space-y-6 md:row-start-2 md:row-span-2">
+      <div className="about-me margin-lr bg-gradient-to-bl opacity-85 border-double shadow-lg from-black to-black rounded-3xl text-white px-6 py-8 flex flex-col justify-center space-y-6 md:row-start-2 md:row-span-2 md:col-span-1">
         <div>
-        <h1 className="title ctr text-center text-9xl">
-          <strong>-Hi, I&apos;m <span className="text-orange-400">Ackeem Smith</span>.</strong>
+        <h1 className=" ctr text-center text-4xl">
+          <strong>-Hi, I&apos;m <span className="underline underline-offset-4 decoration-amber-500 decoration-4">Ackeem Smith</span>.</strong>
         </h1>
       </div>
       <div>
-        <h3 className="text-center underline underline-offset-4 uppercase decoration-amber-500 decoration-4 text-">
+        <h3 className="text-center  uppercase   text-xl">
           <TypeAnimation
             sequence={[
-              "A Full Stack Developer",
-              1000,
-              "A Software Engineer",
-              1000,
-              "A Frontend Developer",
-              1000,
-              "A Backend Developer",
-              1000,
+                "Software Engineer",
+                1500,
+              "Full Stack Developer",
+              1500,
+              "Frontend Developer",
+              1500,
+              "Backend Developer",
+              1500,
             ]}
             speed={50}
             repeat={Infinity}

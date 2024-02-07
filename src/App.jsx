@@ -18,11 +18,11 @@ function App() {
       <Home />
       </section>
 
-      {/* <section className="about">
+      <section className="about">
       <About />
       </section>
       
-      <section className="projects">
+      {/* <section className="projects">
       <Projects />
       </section>
 
