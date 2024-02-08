@@ -12,7 +12,7 @@ const Home = () => {
       <div className="about-me margin-lr bg-gradient-to-bl opacity-85 border-double shadow-lg from-black to-black rounded-3xl text-white px-6 py-8 flex flex-col justify-center space-y-6 md:row-start-2 md:row-span-2 md:col-span-1">
         <div>
         <h1 className=" ctr text-center text-4xl">
-          <strong>-Hi, I&apos;m <span className="underline underline-offset-4 decoration-amber-500 decoration-4">Ackeem Smith</span>.</strong>
+          <strong>-Hi, I&apos;m <span className="underline underline-offset-4 decoration-amber-700 decoration-4">Ackeem Smith</span>.</strong>
         </h1>
       </div>
       <div>

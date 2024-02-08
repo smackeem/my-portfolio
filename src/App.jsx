@@ -10,6 +10,9 @@ import Education from "./pages/Education";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import Main from "./components/main";
+import Modal from "./pages/Modal";
+import 'materialize-css/dist/css/materialize.min.css';
+
 
 function App() {
   return (
@@ -21,8 +24,8 @@ function App() {
       <section className="about">
       <About />
       </section>
-      
-      {/* <section className="projects">
+          
+      <section className="projects">
       <Projects />
       </section>
 
@@ -30,9 +33,9 @@ function App() {
       <Education />
       </section>
 
-      <section className="contact">
+      <section className="contact ">
       <Footer />
-      </section> */}
+      </section>
       
     </div>
   );

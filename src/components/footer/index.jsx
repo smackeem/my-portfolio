@@ -9,15 +9,15 @@ const Footer = () => {
     return (
         // <div className='footer-container'>
             <footer className='flex flex-col p-3 mt-6'>
-                <div className='flex gap-5 mt-3'>
+                <div className='overflow-hidden flex gap-5 mt-3'>
                     <Link title='LinkedIn' to='https://www.linkedin.com/in/smackeem/' className='links' target="_blank" rel="noreferrer">
-                    <img className='img bg-gray-300' src={LinkedInIcon} alt="" />
+                    <img className='img' src={LinkedInIcon} alt="" />
                     </Link>
                     <Link title='Github' to='https://github.com/smackeem/' className='links' target="_blank" rel="noreferrer">
-                    <img className='img bg-gray-300' src={GitHubIcon}/>
+                    <img className='img' src={GitHubIcon}/>
                     </Link>
                     <Link title='Email' to='mailto:smackeem@outlook.com' className='links' target="_blank" rel="noreferrer">
-                    <img className='img bg-gray-300' src={EmailIcon}/>
+                    <img className='img' src={EmailIcon}/>
                     </Link>
                 </div>
                 <div className='m-5'>

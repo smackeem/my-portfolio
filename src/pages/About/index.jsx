@@ -19,7 +19,7 @@ const About = () => {
         return (
             <div className="about-container px-6 py-8 flex flex-col justify-center md:grid md:grid-cols-6">
                 <div className="background-container flex flex-col justify-center md:col-start-2 md:col-span-4">
-                    <div className="flex flex-col justify-center mr-t">
+                    <div className="flex flex-col sticky top-0 justify-center mr-t bg-white">
                     <h1 className=" title text-orange-600 text-center">ABOUT ME</h1>
                     </div>
                     <div className="flex mt-14 flex-col justify-center ">
@@ -46,8 +46,10 @@ const About = () => {
                 
                 <div className="flex flex-col pt-6 justify-center mr-t md:col-start-2 md:col-span-4">
 
-                
+                <div className="sticky top-0">
+
                 <h1 className="text-orange-600 title text-center">SKILLS</h1> 
+                </div>
                 <div className="skills-box flex flex-col mt-14">
                 {frontend.map((f, x) => {
                     return(
