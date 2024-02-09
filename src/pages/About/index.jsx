@@ -17,13 +17,13 @@ const About = () => {
 
     const loaded = () => {
         return (
-            <div className="about-container px-6 py-8 flex flex-col justify-center md:grid md:grid-cols-6">
+            <div className="about-container px-6 py-8 mt-14 flex flex-col justify-center md:grid md:grid-cols-6">
                 <div className="background-container flex flex-col justify-center md:col-start-2 md:col-span-4">
-                    <div className="flex flex-col sticky top-0 justify-center mr-t bg-white">
-                    <h1 className=" title text-orange-600 text-center">ABOUT ME</h1>
+                    <div className="flex flex-col justify-center">
+                    <h1 className=" title text-orange-600 text-center font-extrabold">ABOUT ME</h1>
                     </div>
-                    <div className="flex mt-14 flex-col justify-center ">
-                    <article className='bio '>
+                    <div className="flex mt-14 flex-col justify-center  ">
+                    <article className='bio text-xl'>
                     I navigate the dynamic world of web development as both a frontend 
                     and backend artisan, crafting ingenious solutions for intricate 
                     problems. When confronted by a formidable blocker, I embrace the 
@@ -44,24 +44,24 @@ const About = () => {
 
                 </div>
                 
-                <div className="flex flex-col pt-6 justify-center mr-t md:col-start-2 md:col-span-4">
+                <div className="flex flex-col mt-14 justify-center mr-t md:col-start-2 md:col-span-4">
 
-                <div className="sticky top-0">
+                <div className="">
 
-                <h1 className="text-orange-600 title text-center">SKILLS</h1> 
+                <h1 className="text-orange-600 title text-center font-extrabold">SKILLS</h1> 
                 </div>
                 <div className="skills-box flex flex-col mt-14">
                 {frontend.map((f, x) => {
                     return(
                         <div  key={x} className=" flex flex-row mt-4 m-3">
                             <div className="flex justify-center skill-title basis-1/4">
-                                <h2 className="cat text-lg">{f.cat}</h2>
+                                <h2 className="cat text-xl font-bold">{f.cat}</h2>
                             </div>
                             <div className="flex flex-wrap gap-2 basis-3/4">
                                 {f.skills.map((skill, idx) => {
                                     return (
                                  
-                                        <img className="badge" key={idx} src={skill.badge} alt="" />
+                                        <img className="badge z-depth-3 " key={idx} src={skill.badge} alt="" />
                                         )
                                     }
                                 )}

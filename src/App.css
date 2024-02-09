@@ -1,7 +1,7 @@
 body {
     margin: 0, auto;
-    background-color: whitesmoke;
-    color: black;
+    background-color: #FDFDFD;
+    color: #586E75;
   }
 
 .App {
@@ -10,7 +10,7 @@ body {
 }
 
 .home {
-  background: url('./assets/images/puzzle.jpg') center/cover;
+  background: url('./assets/images/backgroun.jpg') center/cover;
 }
 
 .about{
@@ -18,13 +18,15 @@ padding-bottom: 3rem;
 }
 
 .projects{
-  background: url('./assets/images/puzzle.jpg') center/cover;
+  background: url('./assets/images/bg2.jpg') center/cover;
   padding-bottom: 3rem;
+
 }
 
 .contact{
-  background-color: rgb(234, 88, 12);
+  background-color: #263238;
+  /* background-color: #007B7F; */
 }
 .ed{
-  /* background-color: rgb(234, 88, 12); */
+  /* background-color: #007B7F; */
 }

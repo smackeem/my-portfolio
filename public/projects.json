@@ -2,11 +2,36 @@
   {
     "name": "COVUR",
     "year": "January 2024",
-    "description": "SkyLoom is a seamless and intuitive Flight Finder application that helps users find the cheapest flights for travel. Whether you're a budget-conscious traveler or planning your dream vacation, SkyLoom keeps you informed, saving you time and money.",
-    "live": "https://fascinating-melomakarona-16bbb7.netlify.app/",
-    "git": "https://github.com/smackeem/SkyLoom-Project-3",
-    "image": "https://i.ibb.co/Bt6Tf7v/Screenshot-2023-12-22-at-12-55-45-AM.png",
-    "tech": ["REACT", "JAVASCRIPT", "EXPRESS.JS", "NODE.JS", "MONGODB", "CSS3", "AMADEUS API", "BOOTSTRAP"]
+    "description": "COVUR is a sophisticated and feature-rich platform designed to provide a seamless shopping experience for users seeking premium men's skincare products. This project leverages both Django by incorporating essential features and integrations, and STRIPE API for handling secure card payments to deliver a robust E-Commerce solution.",
+    "live": "hhttps://covurstore-aef113cfb56b.herokuapp.com/",
+    "git": "https://github.com/smackeem/COVUR",
+    "image": "https://i.ibb.co/chjt2RG/LANDING.png",
+    "photos": [
+      "https://i.ibb.co/chjt2RG/LANDING.png",
+      "https://i.ibb.co/44fT55G/Login-View.png",
+      "https://i.ibb.co/d4ggbB4/SignUp.png",
+      "https://i.ibb.co/ssT7VJ2/Product-View.png",
+      "https://i.ibb.co/qsTnS1y/Product-Vieww.png",
+      "https://i.ibb.co/cKqK1fh/CartView.png",
+    "https://i.ibb.co/1Z6dkyH/Checkout-Confirm.png",
+    "https://i.ibb.co/PQGVxMd/Stripe-Checkout.png",
+    "https://i.ibb.co/zGvZVS7/Orders-Views.png",
+    "https://i.ibb.co/n74pVJG/Order-Details.png",
+    "https://i.ibb.co/D57df1b/Create-Review.png",
+    "https://i.ibb.co/j3bbn2s/ADDProduct.png",
+    "https://i.ibb.co/gPjC2qm/Edit-Products.png"
+    ],
+    "badges": ["https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white",
+    "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+    "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54",
+    "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",
+    "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
+    "https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white",
+    "https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white",
+    "https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white",
+    "https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white",
+    "https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"],
+    "tech": ["DJANGO", "JAVASCRIPT", "PYTHON", "PostgreSQL", "HTML5", "CSS3", "STRIPE API", "AWS", "BOOTSTRAP"]
   },
   {
     "name": "SkyLoom",
@@ -14,7 +39,21 @@
     "description": "SkyLoom is a seamless and intuitive Flight Finder application that helps users find the cheapest flights for travel. Whether you're a budget-conscious traveler or planning your dream vacation, SkyLoom keeps you informed, saving you time and money.",
     "live": "https://fascinating-melomakarona-16bbb7.netlify.app/",
     "git": "https://github.com/smackeem/SkyLoom-Project-3",
-    "image": "https://i.ibb.co/Bt6Tf7v/Screenshot-2023-12-22-at-12-55-45-AM.png",
+    "image": "https://i.ibb.co/J2k8cVk/Landing.png",
+    "photos":   [
+      "https://i.ibb.co/J2k8cVk/Landing.png",
+   "https://i.ibb.co/y6J393D/Saved-Flights.png",
+   "https://i.ibb.co/4VPnsxL/OneWay.png",
+   "https://i.ibb.co/T824L6D/Round-Trip.png",
+   "https://i.ibb.co/0ZRj9Zk/Auth0.png"
+     ],
+    "badges": ["https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white", 
+    "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+    "https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB",
+    "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
+    "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white",
+    "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"
+  ],
     "tech": ["REACT", "JAVASCRIPT", "EXPRESS.JS", "NODE.JS", "MONGODB", "CSS3", "AMADEUS API", "BOOTSTRAP"]
   },
   {
@@ -23,7 +62,33 @@
     "description": "Animal Kingdom is a comprehensive and user-friendly web application designed to provide a seamless and organized approach to managing pet health and appointments for pet owners and veterinarians.",
     "live": "https://animalkingdom-67bef32faf2a.herokuapp.com/",
     "git": "https://github.com/smackeem/Animal_Kingdom_Project_2",
-    "image": "https://i.ibb.co/bvfgcd1/animalk.png",
+    "image": "https://i.ibb.co/RDH5Nd5/Landing.png",
+    "photos": [
+      "https://i.ibb.co/RDH5Nd5/Landing.png",
+      "https://i.ibb.co/QkHDyKH/SignUp.png",
+      "https://i.ibb.co/Mgd2pk8/Login.png",
+      "https://i.ibb.co/xGn2VSR/Owner-Dash1.png",
+      "https://i.ibb.co/mHHjjhC/NewPet.png",
+      "https://i.ibb.co/Bw61pXC/Delete-Confirm.png",
+      "https://i.ibb.co/thnHsTc/Delete-Cancel.png",
+      "https://i.ibb.co/nM5ZTpg/Pet-Records.png",
+    "https://i.ibb.co/W6Dg8H5/VetDash.png",
+    "https://i.ibb.co/ScgR1Hb/New-Record.png",
+    "https://i.ibb.co/9qN2RfW/AddAvail.png",
+    "https://i.ibb.co/8jzXDqV/Availability.png",
+    "https://i.ibb.co/vBP5WNf/New-Appoint.png"
+    ],
+    "badges": [
+      "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+      "https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB",
+      "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
+      "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white",
+      "https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white",
+      "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",
+      "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
+      "https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens"
+
+    ],
     "tech": ["JAVASCRIPT", "EXPRESS.JS", "NODE.JS", "MONGODB", "SASS", "HTML5", "CSS3", "BCRYPT.JS"]
   },
     {
@@ -32,16 +97,17 @@
       "description": "Replicate sequences of colors and sounds as the stakes rise, dancing through escalating levels of intensity. In the whimsical realm of Simon, precision is your key to avoiding a dramatic \"Game Over!\" finale.",
       "live": "https://smackeem.github.io/Simon_Says_Project_1/",
       "git": "https://github.com/smackeem/Simon_Says_Project_1",
-      "image": "https://i.ibb.co/kJcsfmN/simon.png",
-      "tech" : ["JAVASCRIPT", "HTML", "CSS"]
-    },
-    {
-      "name": "Simon Says",
-      "year": "October 2023",
-      "description": "Replicate sequences of colors and sounds as the stakes rise, dancing through escalating levels of intensity. In the whimsical realm of Simon, precision is your key to avoiding a dramatic \"Game Over!\" finale.",
-      "live": "https://smackeem.github.io/Simon_Says_Project_1/",
-      "git": "https://github.com/smackeem/Simon_Says_Project_1",
-      "image": "https://i.ibb.co/kJcsfmN/simon.png",
+      "image": "https://i.ibb.co/bJP0zjQ/simon.png",
+      "photos": [
+        "https://i.ibb.co/bJP0zjQ/simon.png",
+        "https://i.ibb.co/FDpjB4T/Gameplay.png",
+        "https://i.ibb.co/SsWBSP1/Gameover.png",
+        "https://i.ibb.co/V9JYJKC/Congrats.png"
+      ],
+      "badges":["https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+      "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",
+            "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"],
       "tech" : ["JAVASCRIPT", "HTML", "CSS"]
     }
   ]
+

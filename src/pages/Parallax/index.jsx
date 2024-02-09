@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import M from 'materialize-css';
-import backgroung from "../../assets/images/puzzle.jpg"
+import backgroung from "../../assets/images/backgroun.jpg"
 const ParallaxComponent = () => {
   useEffect(() => {
     const elems = document.querySelectorAll('.parallax');

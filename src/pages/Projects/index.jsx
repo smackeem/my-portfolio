@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Modal from "../Modal";
+import { Card } from "flowbite-react";
 import "./Projects.css";
 
 const Projects = () => {
@@ -14,7 +15,6 @@ const Projects = () => {
   };
 
   const openModal = (project) => {
-    console.log(project)
     setSelectedProject(project);
     setIsOpen(true);
   };
@@ -28,60 +28,53 @@ const Projects = () => {
 
   const loaded = () => {
     return (
-      <div className="flex flex-col justify-center">
+      <div className="flex flex-col  mt-14 justify-center">
         <div>
-          <h1 className="text-orange-600 title text-center">PROJECTS</h1>
+          <h1 className="text-orange-600 title text-center font-extrabold">
+            PROJECTS
+          </h1>
         </div>
 
-        <div className="flex flex-wrap justify-evenly mt-14 md:columns-2">
+        <div className="flex flex-wrap justify-center mt-14 md:columns-2 gap-5 md:grid md:grid-flow-col p-6">
           {projects.map((project, idx) => {
             return (
-              <div
+              <Card
                 key={idx}
                 onClick={() => openModal(project)}
-                className="card overflow-hidden rounded-lg has-shadow w-80 bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] "
+                className="p-2 z-depth-5 bg-gradient-to-bl  border-double shadow-lg  max-w-lg hover:cursor-pointer hover:animate-bounce"
+                imgAlt="Meaningful alt text for an image that is not purely decorative"
+                imgSrc={project.image}
               >
-                <img
-                  className="aspect-video rounded-b-none"
-                  src={project.image}
-                  alt="simon"
-                />
                 <div className="p-4 flex flex-col gap-2">
                   <div className="text-s text-center">
                     <p>{project.year}</p>
                   </div>
-                  <div className="flex flex-wrap gap-2 text-xs">
-                    {project.tech.map((t, i) => {
-                      return <span key={i}>{t}</span>;
-                    })}
-                  </div>
-                  <h3 className="text-xl font-semibold text-center p-1">
+                  <h3 className="text-3xl font-extrabold text-center p-1 tracking-tight">
                     {project.name}
                   </h3>
-                  <div>
-                    <p className="p-1 text-center text-sm">
-                      {project.description}
-                    </p>
-                  </div>
-                  <div className="button-container flex justify-evenly p-2">
-                    <a href={project.git} target="_blank" rel="noreferrer">
-                      <button className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded-full">
-                        Github
-                      </button>
-                    </a>
-                    <a href={project.live} target="_blank" rel="noreferrer">
-                      <button className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded-full">
-                        App
-                      </button>
-                    </a>
+                  <div className="flex flex-wrap gap-2 justify-center">
+                    {project.tech.map((t, i) => {
+                      return (
+                        <span
+                          className="teal accent-4 p-2 rounded-full text-xs font-bold  text-white"
+                          key={i}
+                        >
+                          {t}
+                        </span>
+                      );
+                    })}
                   </div>
                 </div>
-              </div>
+              </Card>
             );
           })}
         </div>
         {isOpen && selectedProject && (
-          <Modal project={selectedProject} isOpen={isOpen} closeModal={closeModal} />
+          <Modal
+            project={selectedProject}
+            isOpen={isOpen}
+            closeModal={closeModal}
+          />
         )}
       </div>
     );

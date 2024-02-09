@@ -7,17 +7,20 @@ import "./Education.css";
 
 export default function Education() {
   return (
-    <div className="ed-cont mr-t">
-      <h1 className="text-center text-orange-600 text title mt-5">
+    <div className="m-14">
+      <h1 className="text-center font-extrabold text-orange-600 text title mt-5">
         EXPERIENCE
       </h1>
-      <VerticalTimeline className="mt-14">
+      <VerticalTimeline className="mt-14" lineColor={"#ff6d00"} animate={"true"}>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="01/2023 - Present"
-          iconStyle={{ background: "rgb(234, 88, 12)", color: "#fff" }}
+          iconStyle={{ background: "#ff6d00", color: "#E1E8ED" }}
+          
+          contentStyle={{ background: "#00bfa5", color: "white"}}
+          dateClassName={"text-slate-900"}
         >
-          <h3 className="vertical-timeline-element-title">
+          <h3 className="vertical-timeline-element-title font-extrabold text-lg">
             Logistical Specialist
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
@@ -35,9 +38,12 @@ export default function Education() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="10/2023 - 01/2024"
-          iconStyle={{ background: "rgb(234, 88, 12)", color: "#fff" }}
+          iconStyle={{ background: "#ff6d00", color: "#E1E8ED" }}
+          
+          contentStyle={{ background: "#00bfa5", color: "white"}}
+          dateClassName={"text-slate-900"}
         >
-          <h3 className="vertical-timeline-element-title">General Assembly</h3>
+          <h3 className="vertical-timeline-element-title font-extrabold text-lg">General Assembly</h3>
           <h4 className="vertical-timeline-element-subtitle">
             Atlanta, Georgia
           </h4>
@@ -49,11 +55,14 @@ export default function Education() {
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="vertical-timeline-element--work "
           date="08/2022 - 12/2022"
-          iconStyle={{ background: "rgb(234, 88, 12)", color: "#fff" }}
+          iconStyle={{ background: "#ff6d00", color: "#E1E8ED" }}
+          
+          contentStyle={{ background: "#00bfa5", color: "white"}}
+          dateClassName={"text-slate-900"}
         >
-          <h3 className="vertical-timeline-element-title">
+          <h3 className="vertical-timeline-element-title font-extrabold text-lg">
             Warehouse Operations Manager
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
@@ -70,9 +79,12 @@ export default function Education() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="10/2021 - 04/2022"
-          iconStyle={{ background: "rgb(234, 88, 12)", color: "#fff" }}
+          iconStyle={{ background: "#ff6d00", color: "#E1E8ED" }}
+          
+          contentStyle={{ background: "#00bfa5", color: "white"}}
+          dateClassName={"text-slate-900"}
         >
-          <h3 className="vertical-timeline-element-title">
+          <h3 className="vertical-timeline-element-title font-extrabold text-lg">
             Front Desk Supervisor
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
@@ -89,9 +101,12 @@ export default function Education() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="01/2019 - 07/2021"
-          iconStyle={{ background: "rgb(234, 88, 12)", color: "#fff" }}
+          iconStyle={{ background: "#ff6d00", color: "#E1E8ED" }}
+          
+          contentStyle={{ background: "#00bfa5", color: "white"}}
+          dateClassName={"text-slate-900"}
         >
-          <h3 className="vertical-timeline-element-title">
+          <h3 className="vertical-timeline-element-title font-extrabold text-lg">
             Software Engineer I
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
@@ -107,9 +122,12 @@ export default function Education() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="09/2015 - 07/2019"
-          iconStyle={{ background: "rgb(234, 88, 12)", color: "#fff" }}
+          iconStyle={{ background: "#ff6d00", color: "#E1E8ED" }}
+          
+          contentStyle={{ background: "#00bfa5", color: "white"}}
+          dateClassName={"text-slate-900"}
         >
-          <h3 className="vertical-timeline-element-title">
+          <h3 className="vertical-timeline-element-title font-extrabold text-lg">
             Bachelor of Arts in Computer Science
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
@@ -123,7 +141,8 @@ export default function Education() {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          iconStyle={{ background: "rgb(251, 146, 40)", color: "#fff" }}
+          iconStyle={{ background: "#ff6d00", color: "#E1E8ED" }}
+          
         />
       </VerticalTimeline>
     </div>

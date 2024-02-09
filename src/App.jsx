@@ -13,10 +13,15 @@ import Main from "./components/main";
 import Modal from "./pages/Modal";
 import 'materialize-css/dist/css/materialize.min.css';
 
+import backgroung from "./assets/images/backgroun.jpg"
+
+  
+
 
 function App() {
+
   return (
-    <div className="App">
+    <div className="App ">
       <section className="home">
       <Home />
       </section>
