@@ -18,7 +18,7 @@ export default function Education() {
           iconStyle={{ background: "#00bfa5", color: "#E1E8ED" }}
           
           contentStyle={{ background: "#263238", color: "white"}}
-          dateClassName={"text-slate-900"}
+          dateClassName={"text-white font-extrabold md:text-slate-900"}
         >
           <h3 className="vertical-timeline-element-title orange-text accent-4 font-extrabold text-xl">
             Logistical Specialist
@@ -41,7 +41,7 @@ export default function Education() {
           iconStyle={{ background: "#00bfa5", color: "#E1E8ED" }}
           
           contentStyle={{ background: "#263238", color: "white"}}
-          dateClassName={"text-slate-900"}
+          dateClassName={"text-white font-extrabold md:text-slate-900"}
         >
           <h1 className="vertical-timeline-element-title orange-text accent-4 font-extrabold text-xl">General Assembly</h1>
           <h4 className="vertical-timeline-element-subtitle">
@@ -60,7 +60,7 @@ export default function Education() {
           iconStyle={{ background: "#00bfa5", color: "#E1E8ED" }}
           
           contentStyle={{ background: "#263238", color: "white"}}
-          dateClassName={"text-slate-900"}
+          dateClassName={"text-white font-extrabold md:text-slate-900"}
         >
           <h3 className="vertical-timeline-element-title font-extrabold orange-text accent-4 text-xl">
             Warehouse Operations Manager
@@ -82,7 +82,7 @@ export default function Education() {
           iconStyle={{ background: "#00bfa5", color: "#E1E8ED" }}
           
           contentStyle={{ background: "#263238", color: "white"}}
-          dateClassName={"text-slate-900"}
+          dateClassName={"text-white font-extrabold md:text-slate-900"}
         >
           <h3 className="vertical-timeline-element-title font-extrabold orange-text accent-4 text-xl">
             Front Desk Supervisor
@@ -104,7 +104,7 @@ export default function Education() {
           iconStyle={{ background: "#00bfa5", color: "#E1E8ED" }}
           
           contentStyle={{ background: "#263238", color: "white"}}
-          dateClassName={"text-slate-900"}
+          dateClassName={"text-white font-extrabold md:text-slate-900"}
         >
           <h3 className="vertical-timeline-element-title font-extrabold orange-text accent-4 text-xl">
             Software Engineer I
@@ -125,7 +125,7 @@ export default function Education() {
           iconStyle={{ background: "#00bfa5", color: "#E1E8ED" }}
           
           contentStyle={{ background: "#263238", color: "white"}}
-          dateClassName={"text-slate-900"}
+          dateClassName={"text-white font-extrabold md:text-slate-900"}
         >
           <h3 className="vertical-timeline-element-title font-extrabold orange-text accent-4 text-xl">
             Bachelor of Arts in Computer Science
