@@ -7,7 +7,7 @@ import "./Education.css";
 
 export default function Education() {
   return (
-    <div className="m-14">
+    <div className="m-14 text-white font-extrabold md:text-slate-900">
       <h1 className="text-center font-extrabold text-orange-600 text title mt-5">
         EXPERIENCE
       </h1>
