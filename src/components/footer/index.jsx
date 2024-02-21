@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import GitHubIcon from '../../assets/images/share.png'
 import { Tooltip } from 'flowbite-react';
 import EmailIcon from '../../assets/images/email (2).png'
-import ResumePDF from '../../assets/resume/resumé.pdf'
+import ResumePDF from "../../assets/resume/resume.pdf"
 import LinkedIn from '../../assets/images/linkedin (1).png'
 
 const Footer = () => {
