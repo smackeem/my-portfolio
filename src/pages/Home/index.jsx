@@ -1,7 +1,7 @@
 import "./Home.css";
 import Headshot from "../../assets/images/edited.png";
 import { TypeAnimation } from "react-type-animation";
-import ResumePDF from "../../assets/resume/resume.pdf"
+import ResumePDF from "../../assets/resume/resumé.pdf"
 
 import { useEffect } from 'react';
 import M from 'materialize-css';
