@@ -55,8 +55,10 @@ export default function Education() {
             Developed 8+ machine learning models, improving prediction accuracy
             by 20% and reducing analysis time by 30%. <br />
             <br />
-            Enhanced data pipelines for 1TB datasets, cutting preprocessing time
-            by 50% and boosting system performance by 25%.
+            Optimized data processing pipelines for AI/ML applications,
+            handling datasets up to 1TB in size, which resulted in a 50%
+            reduction in data preprocessing time and a 25% increase in overall
+            system performance.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
