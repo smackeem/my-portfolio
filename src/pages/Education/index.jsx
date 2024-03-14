@@ -11,13 +11,16 @@ export default function Education() {
       <h1 className="text-center font-extrabold text-orange-600 text title mt-5">
         EXPERIENCE
       </h1>
-      <VerticalTimeline className="mt-14" lineColor={"#263238"} animate={"true"}>
+      <VerticalTimeline
+        className="mt-14"
+        lineColor={"#263238"}
+        animate={"true"}
+      >
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="01/2023 - Present"
           iconStyle={{ background: "#00bfa5", color: "#E1E8ED" }}
-          
-          contentStyle={{ background: "#263238", color: "white"}}
+          contentStyle={{ background: "#263238", color: "white" }}
           dateClassName={"text-white font-extrabold md:text-slate-900"}
         >
           <h3 className="vertical-timeline-element-title orange-text accent-4 font-extrabold text-xl">
@@ -37,13 +40,35 @@ export default function Education() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="10/2023 - 01/2024"
+          date="05/2022 - Present"
           iconStyle={{ background: "#00bfa5", color: "#E1E8ED" }}
-          
-          contentStyle={{ background: "#263238", color: "white"}}
+          contentStyle={{ background: "#263238", color: "white" }}
           dateClassName={"text-white font-extrabold md:text-slate-900"}
         >
-          <h1 className="vertical-timeline-element-title orange-text accent-4 font-extrabold text-xl">General Assembly</h1>
+          <h3 className="vertical-timeline-element-title orange-text accent-4 font-extrabold text-xl">
+            AI/ML Software Developer
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Data Annotation - Atlanta, Georgia
+          </h4>
+          <p>
+            Developed 8+ machine learning models, improving prediction accuracy
+            by 20% and reducing analysis time by 30%. <br />
+            <br />
+            Enhanced data pipelines for 1TB datasets, cutting preprocessing time
+            by 50% and boosting system performance by 25%.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="10/2023 - 01/2024"
+          iconStyle={{ background: "#00bfa5", color: "#E1E8ED" }}
+          contentStyle={{ background: "#263238", color: "white" }}
+          dateClassName={"text-white font-extrabold md:text-slate-900"}
+        >
+          <h1 className="vertical-timeline-element-title orange-text accent-4 font-extrabold text-xl">
+            General Assembly
+          </h1>
           <h4 className="vertical-timeline-element-subtitle">
             Atlanta, Georgia
           </h4>
@@ -54,12 +79,11 @@ export default function Education() {
             strategies.
           </p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
+        {/* <VerticalTimelineElement
           className="vertical-timeline-element--work "
           date="08/2022 - 12/2022"
           iconStyle={{ background: "#00bfa5", color: "#E1E8ED" }}
-          
-          contentStyle={{ background: "#263238", color: "white"}}
+          contentStyle={{ background: "#263238", color: "white" }}
           dateClassName={"text-white font-extrabold md:text-slate-900"}
         >
           <h3 className="vertical-timeline-element-title font-extrabold orange-text accent-4 text-xl">
@@ -75,13 +99,12 @@ export default function Education() {
             Received, recorded and put-away inventory in appropriate storage or
             issue bins.
           </p>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="10/2021 - 04/2022"
           iconStyle={{ background: "#00bfa5", color: "#E1E8ED" }}
-          
-          contentStyle={{ background: "#263238", color: "white"}}
+          contentStyle={{ background: "#263238", color: "white" }}
           dateClassName={"text-white font-extrabold md:text-slate-900"}
         >
           <h3 className="vertical-timeline-element-title font-extrabold orange-text accent-4 text-xl">
@@ -102,8 +125,7 @@ export default function Education() {
           className="vertical-timeline-element--work"
           date="01/2019 - 07/2021"
           iconStyle={{ background: "#00bfa5", color: "#E1E8ED" }}
-          
-          contentStyle={{ background: "#263238", color: "white"}}
+          contentStyle={{ background: "#263238", color: "white" }}
           dateClassName={"text-white font-extrabold md:text-slate-900"}
         >
           <h3 className="vertical-timeline-element-title font-extrabold orange-text accent-4 text-xl">
@@ -123,8 +145,7 @@ export default function Education() {
           className="vertical-timeline-element--work"
           date="09/2015 - 07/2019"
           iconStyle={{ background: "#00bfa5", color: "#E1E8ED" }}
-          
-          contentStyle={{ background: "#263238", color: "white"}}
+          contentStyle={{ background: "#263238", color: "white" }}
           dateClassName={"text-white font-extrabold md:text-slate-900"}
         >
           <h3 className="vertical-timeline-element-title font-extrabold orange-text accent-4 text-xl">
@@ -142,7 +163,6 @@ export default function Education() {
 
         <VerticalTimelineElement
           iconStyle={{ background: "#00bfa5", color: "#E1E8ED" }}
-          
         />
       </VerticalTimeline>
     </div>
