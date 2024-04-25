@@ -30,11 +30,10 @@ export default function Education() {
             United States Army Reserve - Atlanta, Georgia
           </h4>
           <p>
-            Supervises and performs inventory management or warehouse functions
-            pertaining to receipt, storage, distribution, and issue, and
-            maintains equipment records and parts. <br />
-            <br />
-            Awarded Automated Logistical Specialist Certificate from The
+            ● Supervises and performs inventory management or warehouse
+            functions pertaining to receipt, storage, distribution, and issue,
+            and maintains equipment records and parts. <br />
+            <br />● Awarded Automated Logistical Specialist Certificate from The
             Quartermaster School, Fort Greg-Adams - June 2023.
           </p>
         </VerticalTimelineElement>
@@ -52,10 +51,26 @@ export default function Education() {
             Data Annotation - Atlanta, Georgia
           </h4>
           <p>
-            Developed 8+ machine learning models, improving prediction accuracy
-            by 20% and reducing analysis time by 30%. <br />
+            ● Collaboratively working with solution architects to pilot Proof of
+            Concepts utilizing Azure AI Services and Azure OpenAI Services,
+            aiming to enhance our suite of AI/ML applications.
             <br />
-            Optimized data processing pipelines for AI/ML applications,
+            <br />
+            ● Currently integrating Azure AI services into project workflows,
+            further accelerating delivery speeds, and optimizing real-time data
+            analysis for enhanced system performance. <br />
+            <br />
+            ● Developed 8+ machine learning models, improving prediction
+            accuracy by 20% and reducing analysis time by 30%. <br />
+            <br />
+            ● Optimized data processing pipelines for AI/ML applications,
+            handling datasets up to 1TB in size, which resulted in a 50%
+            reduction in data preprocessing time and a 25% increase in overall
+            system performance. ● Developed 8+ machine learning models,
+            improving prediction accuracy by 20% and reducing analysis time by
+            30%.
+            <br />
+            <br />● Optimized data processing pipelines for AI/ML applications,
             handling datasets up to 1TB in size, which resulted in a 50%
             reduction in data preprocessing time and a 25% increase in overall
             system performance.
@@ -69,13 +84,13 @@ export default function Education() {
           dateClassName={"text-white font-extrabold md:text-slate-900"}
         >
           <h1 className="vertical-timeline-element-title orange-text accent-4 font-extrabold text-xl">
-            General Assembly
+          Full-Stack Software Engineering Bootcamp 
           </h1>
           <h4 className="vertical-timeline-element-subtitle">
-            Atlanta, Georgia
+          General Assembly - Atlanta, Georgia
           </h4>
           <p>
-            Full-Stack Software Engineering Immersive program with 420+ hours
+            ● A Full-Stack Software Engineering Immersive program with 420+ hours
             focused on product development fundamentals, object-oriented
             programming, MVC frameworks, data modeling, and team collaboration
             strategies.
@@ -116,9 +131,9 @@ export default function Education() {
             Noelle - Nashville, Tennessee
           </h4>
           <p>
-            Enhanced operational efficiency by leveraging individual strengths
+            ● Enhanced operational efficiency by leveraging individual strengths
             within the team, fostering a high-performing environment, and
-            yielding a 15% increase in 5-star customer ratings <br /> <br />
+            yielding a 15% increase in 5-star customer ratings <br /> <br />●
             Established a monitoring system for timely assessments and
             replenishment, reducing departmental expenses by 11%.
           </p>
@@ -134,13 +149,37 @@ export default function Education() {
             Software Engineer I
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            JSEZA - Kingston, Jamaica
+            National Commercial Bank Jamaica Limited - Kingston, Jamaica
           </h4>
           <p>
-            Coordinated with the design team to optimize UI/UX on 8 projects
-            which resulted in a 22% decrease in bounce rate. <br /> <br />
-            Implemented robust processes for cleanup and performance improvement
-            that minimized downtime by 37%.
+            ● Collaborated in the development and optimization of the NCB mobile
+            banking app, leading to a 30% increase in user adoption and a 25%
+            improvement in transaction completion rates.
+            <br />
+            <br />
+            ● Participated in web development projects, focusing on enhancing
+            the user interface and user experience of the bank's online banking
+            platform, which increased user engagement by 40%.
+            <br />
+            <br />
+            ● Contributed to the integration of new web and mobile app features
+            such as mobile check deposit, biometric authentication, and
+            real-time notifications, resulting in a 20% rise in daily active
+            users.
+            <br />
+            <br />
+            ● Engaged in cross-functional teams to ensure seamless functionality
+            between mobile and web applications, improving overall system
+            efficiency and user satisfaction.
+            <br />
+            <br />
+            ● Implemented security enhancements across both mobile and web
+            platforms, reducing fraud incidents by 30% and bolstering user trust
+            and safety.
+            <br />
+            <br />● Assisted in the creation of a real-time analytics dashboard
+            for monitoring web and app performance, providing key insights that
+            drove a 35% improvement in targeted marketing strategies.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -157,7 +196,7 @@ export default function Education() {
             The University of the West Indies, Mona
           </h4>
           <p>
-            A 4-year comprehensive curriculum encompassing fundamental aspects
+          ● A 4-year comprehensive curriculum encompassing fundamental aspects
             of computer systems, software development, algorithms, and effective
             problem-solving techniques.
           </p>
